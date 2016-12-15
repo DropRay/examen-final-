@@ -1,0 +1,1 @@
+json.array! @artealvids, partial: 'artealvids/artealvid', as: :artealvid

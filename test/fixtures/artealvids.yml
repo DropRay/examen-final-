@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  lastname: MyText
+  role: MyString
+  position: MyText
+  fecha: 2016-12-15
+
+two:
+  name: MyString
+  lastname: MyText
+  role: MyString
+  position: MyText
+  fecha: 2016-12-15

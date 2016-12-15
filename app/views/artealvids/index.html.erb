@@ -1,0 +1,33 @@
+<h1>Artealvids</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Lastname</th>
+      <th>Role</th>
+      <th>Position</th>
+      <th>Fecha</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @artealvids.each do |artealvid| %>
+      <tr>
+        <td><%= artealvid.name %></td>
+        <td><%= artealvid.lastname %></td>
+        <td><%= artealvid.role %></td>
+        <td><%= artealvid.position %></td>
+        <td><%= artealvid.fecha %></td>
+        <td><%= link_to 'Show', artealvid %></td>
+        <td><%= link_to 'Edit', edit_artealvid_path(artealvid) %></td>
+        <td><%= link_to 'Destroy', artealvid, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Artealvid', new_artealvid_path %>

@@ -1,0 +1,1 @@
+json.partial! "artealvids/artealvid", artealvid: @artealvid

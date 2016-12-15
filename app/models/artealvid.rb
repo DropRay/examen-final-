@@ -1,0 +1,2 @@
+class Artealvid < ApplicationRecord
+end
